@@ -13,7 +13,7 @@ const EachCard = (props) => {
     }
     let isIncludes1,isIncludes2,isIncludes3;
 
-    const emptyString = searchVal === ''
+    const emptyString = searchVal === ""
 
     if (emptyString === true){
         isIncludes1 = false
