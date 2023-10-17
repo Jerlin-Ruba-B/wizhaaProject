@@ -1,0 +1,44 @@
+
+.bgContainer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+.cardHeading{
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.searchBarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBar{
+    padding: 4px;
+    border: 1px solid black;
+    margin-right: 14px;
+    border-radius: 4px;
+}
+.icons{
+    margin-right: 14px;
+    border-width: 0px;
+    background-color: transparent;
+}
+.listContainer{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 18px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 18px;
+}

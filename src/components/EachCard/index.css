@@ -1,0 +1,68 @@
+
+.cardOuterContainer{
+border:1px solid rgb(221, 214, 214);
+border-radius: 4px;
+display: flex;
+align-items: center;
+margin:8px;
+padding: 8px;
+}
+.cardOuterGridContainer{
+border:1px solid rgb(221, 214, 214);
+border-radius: 4px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin:8px;
+padding: 8px;
+
+}
+
+.imgSize{
+    width:100px;
+    height:85px;
+    display: flex;
+    justify-content: flex-start;
+}
+.imgSizeGrid{
+    width:120px;
+    height:85px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.listTitle{
+    font-family: "Roboto";
+    font-size: 12px;
+    
+}
+.detailsContainer{
+padding: 2px;
+margin-right: 12px;
+}
+
+.listStyles{
+    list-style-type: none;
+    color: grey;
+    font-family: "Roboto";
+    font-size: 12px;
+    margin: 8px;
+    
+}
+.badge{
+    background-color: green;
+    border-radius: 4px;
+    color:white;
+    font-weight: bold;
+    font-size: 12px;
+    background-size: cover;
+    width: 40px;
+    padding :4px;
+    margin-bottom: 14px;
+    height: 15px;
+}
+.listStylesHighlight{
+    background-color: rgb(119, 197, 119);
+    color: black;
+}
